@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Diablo 4 early acces launch timer",
+    "version": "1.0",
+    "description": "Licznik czasu do Launchu Diablo 4 -  do 2 czerwca 2023, 01:00.",
+    "permissions": ["tabs"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": "d4.png"
+    },
+    "icons": {
+      "16": "icon.jpg",
+      "48": "icon.jpg",
+      "128": "icon.jpg"
+    }
+  }
+  
